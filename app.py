@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 
-model=joblib.load('/content/linear_regression_model.joblib')
+model=joblib.load('linear_regression_model.joblib')
 
 # Collect input from user
 claim_amount = st.number_input("Claim Amount", min_value=0.0, format="%.2f")
